@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f01c3984f271b804c87084614a7f677e, type: 3}
+  m_Name: ThrownObjects
+  m_EditorClassIdentifier: 
+  <ThrownObjectsList>k__BackingField:
+  - {fileID: 3122650539376902005, guid: 1f17d257118ec324ca772c5b2bacbb14, type: 3}
+  - {fileID: -2066430755997366540, guid: 10d25933610222845ad3760a855829c4, type: 3}
