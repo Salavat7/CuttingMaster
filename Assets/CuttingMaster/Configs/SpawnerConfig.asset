@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <SpawnDelay>k__BackingField: 2
   <BoundX>k__BackingField: 5
-  <ForceToThrow>k__BackingField: {x: 0, y: 1000, z: 0}
-  <Position>k__BackingField: {x: 0, y: -10, z: -2}
+  <Position>k__BackingField: {x: 0, y: -7, z: -2}
+  <MinForce>k__BackingField: 12
+  <MaxForce>k__BackingField: 15
+  <Torque>k__BackingField: 0.5

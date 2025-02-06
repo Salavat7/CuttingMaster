@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -1685311813795278659}
   - component: {fileID: -2267878985064902666}
   - component: {fileID: -2066430755997366540}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Food_Cookie_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -149,4 +149,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2a55ef59c9411b458f46dab664eefa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  particleSystem: {fileID: 7303472089845130122, guid: 6cbc21f5e9162483993a2b84b14d5ac8, type: 3}
+  _particleSystem: {fileID: 0}

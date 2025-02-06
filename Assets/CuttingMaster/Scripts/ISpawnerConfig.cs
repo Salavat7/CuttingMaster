@@ -4,6 +4,8 @@ public interface ISpawnerConfig
 {
     public int SpawnDelay { get; }
     public int BoundX { get; }
-    public Vector3 ForceToThrow { get; }
+    public float MinForce { get; }
+    public float MaxForce { get; }
+    public float Torque { get; }
     public Vector3 Position { get; }
 }
