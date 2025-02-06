@@ -7,5 +7,4 @@ public interface ISpawnerConfig
     public float MinForce { get; }
     public float MaxForce { get; }
     public float Torque { get; }
-    public Vector3 Position { get; }
 }

@@ -16,7 +16,6 @@ public class ItemSpawner : MonoBehaviour
     [Inject]
     public void Init(ISpawnerConfig spawnerConfig, ThrownObjects thrownObjects)
     {
-        transform.position = spawnerConfig.Position;
         _spawnDelay = spawnerConfig.SpawnDelay;
         _boundX = spawnerConfig.BoundX;
         _minForce = spawnerConfig.MinForce;

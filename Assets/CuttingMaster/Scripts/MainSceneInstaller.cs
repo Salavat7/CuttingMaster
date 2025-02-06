@@ -5,19 +5,12 @@ public class MainSceneInstaller : MonoInstaller
 {
     [SerializeField] private SpawnerConfig _spawnerConfig;
     [SerializeField] private ThrownObjects _thrownObjects;
+    [SerializeField] private ItemSpawner _itemSpawner;
 
     public override void InstallBindings()
     {
-        Container.Bind<ItemSpawner>().FromMethod(GetItemSpawner).NonLazy();
-    }
-
-    private ItemSpawner GetItemSpawner()
-    {
-        GameObject gameObject = new GameObject("Item spawner");
-        ItemSpawner itemSpawner = gameObject.AddComponent<ItemSpawner>();
-        itemSpawner.Init(_spawnerConfig, _thrownObjects);
-        itemSpawner.StartSpawning();
-
-        return itemSpawner;
+        Container.Bind<ISpawnerConfig>().FromInstance(_spawnerConfig);
+        Container.Bind<ThrownObjects>().FromInstance(_thrownObjects);
+        Container.Bind<ItemSpawner>().FromInstance(_itemSpawner);
     }
 }
